@@ -6,7 +6,7 @@
  * Time: 下午5:10
  */
 
-$mobile = I('param.mobile');//$_GET["mobile"];
+$mobile = $_GET["mobile"];
 
 echo $mobile;
 
