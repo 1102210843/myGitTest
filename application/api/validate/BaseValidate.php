@@ -22,7 +22,7 @@ class BaseValidate extends Validate
 
         $result = $this->check($param);
 
-        if (!$request){
+        if (!$result){
             $error = $this->getError();
             throw new Exception($error);
         }else{
