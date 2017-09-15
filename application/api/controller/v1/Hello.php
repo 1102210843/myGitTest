@@ -10,6 +10,10 @@ namespace app\api\controller\v1;
 
 use think\Request;
 
+$name = $_GET['name'];
+
+echo $name;
+
 class Hello
 {
 
@@ -17,7 +21,6 @@ class Hello
     {
 
         $param = $request->param();
-
         $name = $param['name'];
 
         return $name;
