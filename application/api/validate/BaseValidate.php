@@ -26,7 +26,6 @@ class BaseValidate extends Validate
             $error = $this->getError();
             throw new Exception($error);
         }else{
-
             return true;
         }
 

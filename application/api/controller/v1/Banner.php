@@ -19,7 +19,7 @@ class Banner
         (new  IDMustBePostiveInt())->goCheck();
 
 
-
+        return '验证正确';
 
     }
 }
