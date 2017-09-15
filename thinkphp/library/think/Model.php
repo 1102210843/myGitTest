@@ -11,6 +11,7 @@
 
 namespace think;
 
+use BadMethodCallException;
 use InvalidArgumentException;
 use think\db\Query;
 use think\exception\ValidateException;
@@ -567,6 +568,7 @@ abstract class Model implements \JsonSerializable, \ArrayAccess
      * @access public
      * @param Relation        $modelRelation 模型关联对象
      * @return mixed
+     * @throws BadMethodCallException
      */
     protected function getRelationData(Relation $modelRelation)
     {
@@ -574,7 +576,11 @@ abstract class Model implements \JsonSerializable, \ArrayAccess
             $value = $this->parent;
         } else {
             // 首先获取关联数据
-            $value = $modelRelation->getRelation();
+            if (method_exists($modelRelation, 'getRelation')) {
+                $value = $modelRelation->getRelation();
+            } else {
+                throw new BadMethodCallException('method not exists:' . get_class($modelRelation) . '-> getRelation');
+            }
         }
         return $value;
     }
@@ -927,6 +933,11 @@ abstract class Model implements \JsonSerializable, \ArrayAccess
      */
     public function save($data = [], $where = [], $sequence = null)
     {
+        if (is_string($data)) {
+            $sequence = $data;
+            $data     = [];
+        }
+
         if (!empty($data)) {
             // 数据自动验证
             if (!$this->validateData($data)) {
@@ -937,7 +948,8 @@ abstract class Model implements \JsonSerializable, \ArrayAccess
                 $this->setAttr($key, $value, $data);
             }
             if (!empty($where)) {
-                $this->isUpdate = true;
+                $this->isUpdate    = true;
+                $this->updateWhere = $where;
             }
         }
 
@@ -1663,7 +1675,7 @@ abstract class Model implements \JsonSerializable, \ArrayAccess
      * 设置是否使用全局查询范围
      * @param bool $use 是否启用全局查询范围
      * @access public
-     * @return Model
+     * @return Query
      */
     public static function useGlobalScope($use)
     {
@@ -1855,7 +1867,7 @@ abstract class Model implements \JsonSerializable, \ArrayAccess
      * @access public
      * @param string $model      模型名
      * @param string $foreignKey 关联外键
-     * @param string $localKey   关联主键
+     * @param string $localKey   当前模型主键
      * @param array  $alias      别名定义（已经废弃）
      * @param string $joinType   JOIN类型
      * @return HasOne
@@ -1895,7 +1907,7 @@ abstract class Model implements \JsonSerializable, \ArrayAccess
      * @access public
      * @param string $model      模型名
      * @param string $foreignKey 关联外键
-     * @param string $localKey   关联主键
+     * @param string $localKey   当前模型主键
      * @return HasMany
      */
     public function hasMany($model, $foreignKey = '', $localKey = '')
@@ -1914,7 +1926,7 @@ abstract class Model implements \JsonSerializable, \ArrayAccess
      * @param string $through    中间模型名
      * @param string $foreignKey 关联外键
      * @param string $throughKey 关联外键
-     * @param string $localKey   关联主键
+     * @param string $localKey   当前模型主键
      * @return HasManyThrough
      */
     public function hasManyThrough($model, $through, $foreignKey = '', $throughKey = '', $localKey = '')
