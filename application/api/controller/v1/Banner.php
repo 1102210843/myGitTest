@@ -9,6 +9,7 @@
 namespace app\api\controller\v1;
 
 use app\api\validate\IDMustBePostiveInt;
+use app\api\model\Banner as BannerModel;
 
 class Banner
 {
@@ -18,8 +19,10 @@ class Banner
 
         (new  IDMustBePostiveInt())->goCheck();
 
+        $banner = BannerModel::getBannerById($id);
 
-        return '验证正确';
+        
+        return $banner;
 
     }
 }
