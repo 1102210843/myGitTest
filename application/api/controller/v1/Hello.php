@@ -21,5 +21,5 @@ class Hello
         $name = $param['name'];
 
         return $name;
-    };
+    }
 }
