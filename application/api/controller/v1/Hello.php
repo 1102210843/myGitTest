@@ -13,10 +13,10 @@ use think\Request;
 class Hello
 {
 
-    public function hello()
+    public function hello(Request $request)
     {
 
-        $param = Request::instance('param');
+        $param = $request->param();
 
         $name = $param['name'];
 
