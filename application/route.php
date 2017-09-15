@@ -12,4 +12,4 @@
 
 use think\Route;
 
-Route::get('hello', 'api/v1.Hello/hello');
+Route::get('hello', 'index.php/api/v1.Hello/hello');
