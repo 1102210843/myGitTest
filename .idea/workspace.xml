@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa981fe2-e2d9-40f6-a0dc-c54b2afeb140" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/controller/v1/Hello.php" afterPath="$PROJECT_DIR$/application/api/controller/v1/Hello.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/controller/Index.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config.php" afterPath="$PROJECT_DIR$/application/config.php" />
     </list>
     <ignored path="myGitTest.iws" />
@@ -47,8 +47,8 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="97" column="36" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
+            <state relative-caret-position="309">
+              <caret line="106" column="17" selection-start-line="105" selection-start-column="36" selection-end-line="106" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -271,12 +271,12 @@
       <workItem from="1505324642545" duration="2002000" />
       <workItem from="1505379606867" duration="3037000" />
       <workItem from="1505486615720" duration="1805000" />
-      <workItem from="1505488877150" duration="1426000" />
+      <workItem from="1505488877150" duration="1596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12475000" />
+    <option name="totallyTimeSpent" value="12645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="23" width="1170" height="753" extended-state="0" />
@@ -354,11 +354,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <marker date="1500568626000" expanded="true" signature="514:533" ph="..." />
-            <marker date="1500568626000" expanded="true" signature="580:594" ph="..." />
-            <marker date="1500568626000" expanded="true" signature="642:657" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -381,11 +377,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <marker date="1500568626000" expanded="true" signature="514:533" ph="..." />
-            <marker date="1500568626000" expanded="true" signature="580:594" ph="..." />
-            <marker date="1500568626000" expanded="true" signature="642:657" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -409,11 +401,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <marker date="1500568626000" expanded="true" signature="514:533" ph="..." />
-            <marker date="1500568626000" expanded="true" signature="580:594" ph="..." />
-            <marker date="1500568626000" expanded="true" signature="642:657" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -437,11 +425,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500568626000" expanded="true" signature="514:533" ph="..." />
-            <marker date="1500568626000" expanded="true" signature="580:594" ph="..." />
-            <marker date="1500568626000" expanded="true" signature="642:657" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -521,11 +505,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding>
-            <marker date="1500568626000" expanded="true" signature="514:533" ph="..." />
-            <marker date="1500568626000" expanded="true" signature="580:594" ph="..." />
-            <marker date="1500568626000" expanded="true" signature="642:657" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -555,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="97" column="36" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
+        <state relative-caret-position="309">
+          <caret line="106" column="17" selection-start-line="105" selection-start-column="36" selection-end-line="106" selection-end-column="17" />
           <folding />
         </state>
       </provider>
