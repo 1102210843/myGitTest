@@ -56,7 +56,7 @@ return [
     // +----------------------------------------------------------------------
 
     // 默认模块名
-    'default_module'         => 'index',
+    'default_module'         => 'api',
     // 禁止访问模块
     'deny_module_list'       => ['common'],
     // 默认控制器名
@@ -76,7 +76,9 @@ return [
     // | URL设置
     // +----------------------------------------------------------------------
 
-    'URL_MODEL'              => 2,
+    'URL_CASE_INSENSITIVE'=>true,
+    //URL模式
+    'URL_MODEL'          => '2',
     // PATHINFO变量名 用于兼容模式
     'var_pathinfo'           => 's',
     // 兼容PATH_INFO获取
