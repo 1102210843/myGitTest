@@ -16,6 +16,6 @@ class ExceptionHandler extends Handle
 {
     public function render(Exception $e)
     {
-        return '~~~~~~~~~~~~';
+        return json('~~~~~~~~~~');
     }
 }
