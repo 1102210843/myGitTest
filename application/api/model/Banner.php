@@ -9,10 +9,21 @@
 namespace app\api\model;
 
 
+use think\Exception;
+
 class Banner
 {
     public static function getBannerById($id)
     {
+        try
+        {
+            1/0;
+        }
+        catch (Exception $e)
+        {
+            throw $e;
+        }
+
         //TODO:根据Banner Id号 获取Banner信息
         return 'this is Banner info';
     }
