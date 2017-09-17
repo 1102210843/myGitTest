@@ -21,7 +21,7 @@ class Banner
 
         $banner = BannerModel::getBannerById($id);
 
-        
+
         return $banner;
 
     }
