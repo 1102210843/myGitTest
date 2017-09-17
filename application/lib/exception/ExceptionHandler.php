@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: sunyu
  * Date: 2017/9/17
- * Time: 下午1:08
+ * Time: 下午1:18
  */
 
 namespace app\lib\exception;
@@ -13,7 +13,7 @@ use think\exception\Handle;
 use think\Log;
 use think\Request;
 
-class ExceptionHandle extends Handle
+class ExceptionHandler extends Handle
 {
     private $code;
     private $msg;
