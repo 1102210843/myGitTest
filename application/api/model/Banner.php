@@ -17,7 +17,7 @@ class Banner
     {
         try
         {
-            1/0;
+            1 / 0;
         }
         catch (Exception $e)
         {
