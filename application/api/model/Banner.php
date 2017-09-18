@@ -8,11 +8,7 @@
 
 namespace app\api\model;
 
-
-use think\Db;
-use think\Model;
-
-class Banner extends Model
+class Banner extends BaseModel
 {
     //手动指定关联数据库表
 //    protected  $table = 'banner';
