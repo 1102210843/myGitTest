@@ -19,6 +19,12 @@ class Theme
         $result = ThemeModel::with('topicImg', 'headImg')
             ->select($ids);
 
+        if (!$result)
+        {
+            return 'error';
+        }
+
+
         return $result;
     }
 }
