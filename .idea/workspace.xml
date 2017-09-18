@@ -100,8 +100,8 @@
       <file leaf-file-name="Banner.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Banner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="181">
+              <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
               <folding>
                 <element signature="e#123#163#0#PHP" expanded="true" />
               </folding>
@@ -432,12 +432,12 @@
       <workItem from="1505324642545" duration="2002000" />
       <workItem from="1505379606867" duration="3037000" />
       <workItem from="1505486615720" duration="1805000" />
-      <workItem from="1505488877150" duration="20371000" />
+      <workItem from="1505488877150" duration="20654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31420000" />
+    <option name="totallyTimeSpent" value="31703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="23" width="1170" height="753" extended-state="0" />
@@ -825,8 +825,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Banner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="181">
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
           <folding>
             <element signature="e#123#163#0#PHP" expanded="true" />
           </folding>
