@@ -100,8 +100,8 @@
       <file leaf-file-name="Banner.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Banner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+            <state relative-caret-position="286">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
                 <element signature="e#123#163#0#PHP" expanded="true" />
               </folding>
@@ -432,12 +432,12 @@
       <workItem from="1505324642545" duration="2002000" />
       <workItem from="1505379606867" duration="3037000" />
       <workItem from="1505486615720" duration="1805000" />
-      <workItem from="1505488877150" duration="19674000" />
+      <workItem from="1505488877150" duration="19863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30723000" />
+    <option name="totallyTimeSpent" value="30912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="23" width="1170" height="753" extended-state="0" />
@@ -481,7 +481,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/login/index.php" />
     <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -816,10 +815,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="455" column="9" selection-start-line="455" selection-start-column="9" selection-end-line="455" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Banner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="286">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
             <element signature="e#123#163#0#PHP" expanded="true" />
           </folding>
