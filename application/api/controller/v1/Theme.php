@@ -3,6 +3,7 @@
 namespace app\api\controller\v1;
 
 use app\api\validate\IDCollection;
+use app\api\model\Theme as ThemeModel;
 
 class Theme
 {
@@ -14,6 +15,10 @@ class Theme
     {
         (new IDCollection())->goCheck();
 
-        return 'YES';
+        $ids = explode(',', $ids);
+        $result = ThemeModel::with('topicImg', 'headImg')
+            ->select($ids);
+
+        return $result;
     }
 }
