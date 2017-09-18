@@ -4,6 +4,7 @@ namespace app\api\controller\v1;
 
 use app\api\validate\IDCollection;
 use app\api\model\Theme as ThemeModel;
+use app\lib\exception\ThemeException;
 
 class Theme
 {
@@ -19,12 +20,9 @@ class Theme
         $result = ThemeModel::with('topicImg', 'headImg')
             ->select($ids);
 
-        if (!$result)
-        {
-            return 'error';
+        if (!$result) {
+            throw new ThemeException();
         }
-
-
         return $result;
     }
 }
