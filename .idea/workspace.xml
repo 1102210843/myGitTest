@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa981fe2-e2d9-40f6-a0dc-c54b2afeb140" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config.php" afterPath="$PROJECT_DIR$/application/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/validate/BaseValidate.php" afterPath="$PROJECT_DIR$/application/api/validate/BaseValidate.php" />
     </list>
     <ignored path="myGitTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,8 +78,8 @@
       <file leaf-file-name="BaseValidate.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/api/validate/BaseValidate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+            <state relative-caret-position="414">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -395,18 +395,18 @@
       <workItem from="1505324642545" duration="2002000" />
       <workItem from="1505379606867" duration="3037000" />
       <workItem from="1505486615720" duration="1805000" />
-      <workItem from="1505488877150" duration="28362000" />
+      <workItem from="1505488877150" duration="28471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39411000" />
+    <option name="totallyTimeSpent" value="39520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="23" width="1170" height="753" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2712766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2712766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5035461" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -816,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/api/validate/BaseValidate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        <state relative-caret-position="414">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
           <folding />
         </state>
       </provider>
