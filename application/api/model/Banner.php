@@ -21,7 +21,7 @@ class Banner
 //        $result = Db::table('banner_item')->where('banner_id', '=', $id)
 //            ->select();
 
-        $result = Db::table('')
+        $result = Db::table('banner_item')
             ->where(function($query) use ($id){
                 $query->where('banner_id', '=', $id);
             })
