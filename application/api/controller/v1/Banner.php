@@ -24,12 +24,14 @@ class Banner
             'id' => $id,
             'name' => '首页置顶',
             'description' => '首页轮播图',
-            'delete_time' => $date= date("Y-m-d",strtotime("2500-12-12")),
+            'delete_time' => $date= date("Y-m-d",strtotime("9999-12-12")),
             'update_time' => $date= date("Y-m-d",strtotime("2017-09-18"))
         ]);
         if (!$banner){
             throw new BannerMissException();
         }
+
+        echo 'adsfghgfdcsfdg';
 
         return $banner;
 
