@@ -19,14 +19,8 @@ class Banner
     {
         (new  IDMustBePostiveInt())->goCheck();
 
-//        $banner = BannerModel::get($id);
-        $banner = BannerModel::create([
-            'id' => $id,
-            'name' => '首页置顶',
-            'description' => '首页轮播图',
-            'delete_time' => '2500-02-17',
-            'update_time' => '2017-02-17'
-        ]);
+        $banner = BannerModel::get($id);
+        
         if (!$banner){
             throw new BannerMissException();
         }
