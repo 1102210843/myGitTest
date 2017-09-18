@@ -28,8 +28,6 @@ class Banner
             'id' => $id,
             'name' => '首页置顶',
             'description' => '首页轮播图',
-            'delete_time' => date('Y-m-d h:i:sa', mktime(12, 12, 12, 1, 1, 2500)),
-            'update_time' => date('Y-m-d h:i:sa', mktime(12, 12, 12, 18, 9, 2017))
         ]);
         if (!$banner){
             throw new BannerMissException();
