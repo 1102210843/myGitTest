@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa981fe2-e2d9-40f6-a0dc-c54b2afeb140" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/controller/v1/Theme.php" afterPath="$PROJECT_DIR$/application/api/controller/v1/Theme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/model/Theme.php" afterPath="$PROJECT_DIR$/application/api/model/Theme.php" />
     </list>
     <ignored path="myGitTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +39,8 @@
       <file leaf-file-name="Banner.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/api/model/Banner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,8 +59,8 @@
       <file leaf-file-name="Theme.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Theme.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="23" selection-start-line="25" selection-start-column="9" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="300">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding>
                 <element signature="e#41#75#0#PHP" expanded="true" />
               </folding>
@@ -110,18 +111,18 @@
       <file leaf-file-name="Theme.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/api/model/Theme.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/model/BaseModel.php">
+      <file leaf-file-name="BannerItem.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/api/model/BannerItem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -162,7 +163,6 @@
         <option value="$PROJECT_DIR$/application/api/controller/v2/Banner.php" />
         <option value="$PROJECT_DIR$/application/api/controller/v1/theme.php" />
         <option value="$PROJECT_DIR$/application/api/model/Product.php" />
-        <option value="$PROJECT_DIR$/application/api/model/Theme.php" />
         <option value="$PROJECT_DIR$/application/api/validate/IDMustBePostiveInt.php" />
         <option value="$PROJECT_DIR$/application/route.php" />
         <option value="$PROJECT_DIR$/application/api/validate/IDCollection.php" />
@@ -170,6 +170,7 @@
         <option value="$PROJECT_DIR$/application/api/validate/BaseValidate.php" />
         <option value="$PROJECT_DIR$/application/config.php" />
         <option value="$PROJECT_DIR$/application/api/controller/v1/Theme.php" />
+        <option value="$PROJECT_DIR$/application/api/model/Theme.php" />
       </list>
     </option>
   </component>
@@ -450,12 +451,12 @@
       <workItem from="1505324642545" duration="2002000" />
       <workItem from="1505379606867" duration="3037000" />
       <workItem from="1505486615720" duration="1805000" />
-      <workItem from="1505488877150" duration="30293000" />
+      <workItem from="1505488877150" duration="30504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41342000" />
+    <option name="totallyTimeSpent" value="41553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="23" width="1170" height="753" extended-state="0" />
@@ -746,14 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/model/BannerItem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/api/model/Product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -798,14 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/model/Theme.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -868,18 +853,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/model/BannerItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/api/model/Banner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/model/Theme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Theme.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="23" selection-start-line="25" selection-start-column="9" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="300">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding>
             <element signature="e#41#75#0#PHP" expanded="true" />
           </folding>

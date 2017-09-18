@@ -17,7 +17,6 @@ class Theme
         (new IDCollection())->goCheck();
 
         $ids = explode(',', $ids);
-        echo json($ids);
         $result = ThemeModel::with('topicImg', 'headImg')
             ->select($ids);
 
