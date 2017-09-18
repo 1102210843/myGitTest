@@ -20,14 +20,12 @@ class Banner
         (new  IDMustBePostiveInt())->goCheck();
 
 //        $banner = BannerModel::get($id);
-
-        $d=mktime(9, 12, 31, 6, 10, 2015);
-        echo "创建日期是 " . date("Y-m-d h:i:sa", $d);
-
         $banner = BannerModel::create([
-            'id' => $id,
+            'id' => 1,
             'name' => '首页置顶',
             'description' => '首页轮播图',
+            'delete_time' => '2500-02-17',
+            'update_time' => '2017-02-17'
         ]);
         if (!$banner){
             throw new BannerMissException();
