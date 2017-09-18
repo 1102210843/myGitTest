@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa981fe2-e2d9-40f6-a0dc-c54b2afeb140" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/controller/v1/Theme.php" afterPath="$PROJECT_DIR$/application/api/controller/v1/Theme.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/validate/BaseValidate.php" afterPath="$PROJECT_DIR$/application/api/validate/BaseValidate.php" />
     </list>
     <ignored path="myGitTest.iws" />
@@ -61,8 +60,8 @@
       <file leaf-file-name="BaseValidate.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/api/validate/BaseValidate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="360">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -451,12 +450,12 @@
       <workItem from="1505324642545" duration="2002000" />
       <workItem from="1505379606867" duration="3037000" />
       <workItem from="1505486615720" duration="1805000" />
-      <workItem from="1505488877150" duration="29831000" />
+      <workItem from="1505488877150" duration="29876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40880000" />
+    <option name="totallyTimeSpent" value="40925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="23" width="1170" height="753" extended-state="0" />
@@ -881,8 +880,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/api/validate/BaseValidate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="360">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding />
         </state>
       </provider>
