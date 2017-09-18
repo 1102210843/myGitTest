@@ -24,8 +24,8 @@ class Banner
             'id' => 1,
             'name' => '首页置顶',
             'description' => '首页轮播图',
-            'delete_time' => '2500-02-17',
-            'update_time' => '2017-02-17'
+            'delete_time' => '2500-02-17 12:12:12',
+            'update_time' => '2017-02-17 12:12:12'
         ]);
         if (!$banner){
             throw new BannerMissException();
