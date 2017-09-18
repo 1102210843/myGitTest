@@ -14,5 +14,12 @@ use think\Model;
 
 class Banner extends Model
 {
+    //手动指定关联数据库表
+//    protected  $table = 'banner';
+
+    public function items(){
+        // 关联模型的名字  关联外键  当前模型的主键
+        return $this->hasMany('BannerItem', 'banner_id', 'id');
+    }
 
 }
