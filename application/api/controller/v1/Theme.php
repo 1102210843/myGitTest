@@ -20,6 +20,8 @@ class Theme
         $result = ThemeModel::with('topicImg', 'headImg')
             ->select($ids);
 
+        echo 'wwwwwwwwwwww';
+
         if (!$result) {
             throw new ThemeException();
         }

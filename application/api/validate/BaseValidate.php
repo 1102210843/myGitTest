@@ -27,10 +27,8 @@ class BaseValidate extends Validate
             $e = new ParameterException([
                 'msg' => $this->error,
             ]);
-            echo 'adsfdgh';
             throw $e;
         }else{
-            echo 'aaaaaaaa';
             return true;
         }
     }
