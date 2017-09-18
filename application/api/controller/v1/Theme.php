@@ -14,6 +14,8 @@ class Theme
      * */
     public function getSimpleList($ids = '')
     {
+        echo 'adsfdgh';
+
         (new IDCollection())->goCheck();
 
         $ids = explode(',', $ids);
