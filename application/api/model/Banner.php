@@ -9,10 +9,10 @@
 namespace app\api\model;
 
 
-use think\Exception;
 use think\Db;
+use think\Model;
 
-class Banner
+class Banner extends Model
 {
     public static function getBannerById($id)
     {
