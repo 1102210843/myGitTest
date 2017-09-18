@@ -23,6 +23,6 @@ class Theme
         if (!$result) {
             throw new ThemeException();
         }
-        return json($result);
+        return $result;
     }
 }
