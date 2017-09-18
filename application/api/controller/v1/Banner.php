@@ -19,7 +19,7 @@ class Banner
     {
         (new  IDMustBePostiveInt())->goCheck();
 
-        $banner = BannerModel::with('items')->get($id);
+        $banner = BannerModel::with('items')->find($id);
         if (!$banner){
             throw new BannerMissException();
         }
