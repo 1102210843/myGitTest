@@ -25,7 +25,7 @@ class Banner
         echo "创建日期是 " . date("Y-m-d h:i:sa", $d);
 
         $banner = BannerModel::create([
-            'id' => 1,
+            'id' => $id,
             'name' => '首页置顶',
             'description' => '首页轮播图',
             'delete_time' => date('Y-m-d h:i:sa', mktime(12, 12, 12, 1, 1, 2500)),
