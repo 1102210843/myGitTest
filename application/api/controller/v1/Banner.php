@@ -20,7 +20,6 @@ class Banner
         (new  IDMustBePostiveInt())->goCheck();
 
         $banner = BannerModel::getBannerById($id);
-        $banner->hidden(['delete_time']);
         if (!$banner){
             throw new BannerMissException();
         }
