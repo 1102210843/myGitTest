@@ -23,6 +23,8 @@ class BaseValidate extends Validate
 
         $result = $this->batch()->check($param);
 
+        echo 'adsfdgh';
+
         if (!$result){
             $e = new ParameterException([
                 'msg' => $this->error,
