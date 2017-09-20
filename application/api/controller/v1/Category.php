@@ -9,12 +9,16 @@
 namespace app\api\controller\v1;
 
 use app\api\model\Category as CategoryModel;
+use app\lib\exception\CategoryException;
 
 class Category
 {
-    public function getAllCategorys()
+    public function getAllCategories()
     {
-        $category = CategoryModel::all([], 'img');
-        return $category;
+        $categories = CategoryModel::all([], 'img');
+        if ($categories->isEmpty()){
+            throw new CategoryException();
+        }
+        return $categories;
     }
 }

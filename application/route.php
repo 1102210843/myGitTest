@@ -15,11 +15,12 @@ use think\Route;
 Route::get('api/:version/banner', 'api/:version.Banner/getBanner');
 
 Route::get('api/:version/theme', 'api/:version.Theme/getSimpleList');
-
 Route::get('api/:version/themeCom', 'api/:version.Theme/getComplexOne');
 
 Route::get('api/:version/product/recent', 'api/:version.Product/getRecent');
+Route::get('api/:version/product/by_category', 'api/:version.Product/getAllInCategory');
 
-Route::get('api/:version/category/all', 'api/:version.Category/getAllCategorys');
+Route::get('api/:version/category/all', 'api/:version.Category/getAllCategories');
+
 
 
