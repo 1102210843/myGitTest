@@ -19,13 +19,13 @@ class Product
 
           (new Count())->goCheck();
 
-          $product = ProductModel::getMostRecent($count);
-          if (!$product){
+          $products = ProductModel::getMostRecent($count);
+          if (!$products){
               throw new ProductException();
           }
-          $collection = collection($product);
-          $product = $collection->hidden('summary');
-          return $product;
+          $collection = collection($products);
+          $products = $collection->hidden(['summary']);
+          return $products;
       }
 
 }
