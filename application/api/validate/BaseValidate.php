@@ -41,5 +41,13 @@ class BaseValidate extends Validate
         }
     }
 
+    protected function isNotEmpty($value){
+        if (empty($value)){
+            return false;
+        }else{
+            return true;
+        }
+    }
+
 
 }
