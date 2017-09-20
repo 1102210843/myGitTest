@@ -7,5 +7,6 @@
  */
 
 return [
-    'img_prefix' => 'http://60.205.225.243/myGitTest/public/images'
+    'img_prefix' => 'http://60.205.225.243/myGitTest/public/images',
+    'token_expire_in' => 7200
 ];

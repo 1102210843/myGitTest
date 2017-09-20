@@ -20,6 +20,8 @@ class Token
 
         $ut = new UserToken($code);
         $token = $ut->get();
-        return $token;
+        return [
+            'token' => $token
+        ];
     }
 }
