@@ -23,6 +23,8 @@ class Product
           if (!$product){
               throw new ProductException();
           }
+          $collection = collection($product);
+          $product = $collection->hidden('summary');
           return $product;
       }
 
