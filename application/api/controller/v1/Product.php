@@ -31,11 +31,12 @@ class Product
       public function getAllInCategory($id){
           (new IDMustBePostiveInt())->goCheck();
 
-          $product = ProductModel::getProductsByCategoryID($id);
-          if ($product->isEmpty()){
+          $products = ProductModel::getProductsByCategoryID($id);
+          if ($products->isEmpty()){
               throw new ProductException();
           }
-          return $product;
+          $products = $products->hidden(['summary']);
+          return $products;
       }
 
 }
