@@ -8,8 +8,6 @@
 
 namespace app\api\validate;
 
-use app\api\validate\BaseValidate;
-
 class IDMustBePostiveInt extends BaseValidate
 {
 

@@ -17,3 +17,5 @@ Route::get('api/:version/banner', 'api/:version.Banner/getBanner');
 Route::get('api/:version/theme', 'api/:version.Theme/getSimpleList');
 
 Route::get('api/:version/themeCom', 'api/:version.Theme/getComplexOne');
+
+Route::get('api/:version/product/recent', 'api/:version.Product/getRecent');
