@@ -2,10 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa981fe2-e2d9-40f6-a0dc-c54b2afeb140" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lib/exception/ProductException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/controller/v1/Product.php" afterPath="$PROJECT_DIR$/application/api/controller/v1/Product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/model/Product.php" afterPath="$PROJECT_DIR$/application/api/model/Product.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/1@theme-head.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/1@theme.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/2@theme-head.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/2@theme.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/3@theme.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/banner-1a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/banner-2a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/banner-3a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/banner-4a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/category-cake.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/category-dryfruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/category-fry-a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/category-rice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/category-tea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/category-vg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/detail-10@1-dryfruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/detail-11@1-dryfruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/detail-12@1-dryfruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/detail-13@1-dryfruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/detail-1@1-dryfruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/detail-2@1-dryfruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/detail-3@1-dryfruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/detail-4@1-dryfruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/detail-5@1-dryfruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/detail-6@1-dryfruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/detail-7@1-dryfruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/detail-8@1-dryfruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/detail-9@1-dryfruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-cake-a@3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-cake-a@4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-cake@1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-cake@2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-dryfruit-a@6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-dryfruit@1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-dryfruit@2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-dryfruit@3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-dryfruit@4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-dryfruit@5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-dryfruit@7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-dryfruit@8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-fry@1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-fry@2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-fry@3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-fry@4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-fry@5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-rice@1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-rice@2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-rice@3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-rice@4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-rice@5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-rice@6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-rice@7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-tea@1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-tea@2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-tea@3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-vg@1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-vg@2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-vg@3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-vg@4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product-vg@5.png" />
     </list>
     <ignored path="myGitTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +97,8 @@
       <file leaf-file-name="Product.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="135">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#124#151#0#PHP" expanded="true" />
               </folding>
@@ -416,15 +472,16 @@
     <property name="SearchEverywhereHistoryKey" value="Handle&#9;null&#9;null&#10;ExceptionHandler&#9;null&#9;null&#10;Banner&#9;FILE&#9;file:///Users/sunyu/Desktop/PHP/myGitTest/application/api/controller/v1/Banner.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application/api/controller/v2" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/imags" />
       <recent name="$PROJECT_DIR$/application/lib" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/application/api/controller/v2" />
     </key>
   </component>
   <component name="RunManager">
@@ -495,18 +552,18 @@
       <workItem from="1505486615720" duration="1805000" />
       <workItem from="1505488877150" duration="32492000" />
       <workItem from="1505802109264" duration="7203000" />
-      <workItem from="1505889578024" duration="1339000" />
+      <workItem from="1505889578024" duration="1393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52083000" />
+    <option name="totallyTimeSpent" value="52137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="23" width="1170" height="753" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28014183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28014183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5035461" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -902,8 +959,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="135">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#124#151#0#PHP" expanded="true" />
           </folding>
