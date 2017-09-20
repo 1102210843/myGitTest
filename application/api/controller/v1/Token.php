@@ -9,6 +9,7 @@
 namespace app\api\controller\v1;
 
 
+use app\api\service\UserToken;
 use app\api\validate\TokenGet;
 
 class Token
@@ -17,6 +18,8 @@ class Token
 
         (new TokenGet())->goCheck();
 
-        return 'success';
+        $ut = new UserToken($code);
+        $token = $ut->get();
+        return $token;
     }
 }
