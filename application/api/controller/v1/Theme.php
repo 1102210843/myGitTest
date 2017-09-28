@@ -25,10 +25,9 @@ class Theme
         if ($result->isEmpty()) {
             throw new ThemeException();
         }
-        echo dump($result).'111';
-        return new SuccessMessage([
-            'data' => $result
-        ]);//$result;
+        $success = new SuccessMessage();
+        $success->data = $result;
+        return $success;
     }
 
     /*
@@ -42,7 +41,6 @@ class Theme
         if ($result->isEmpty()){
             throw new ThemeException();
         }
-        echo dump($result).'2222';
         return new SuccessMessage([
             'data' => $result
         ]);// $result;
