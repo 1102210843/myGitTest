@@ -18,5 +18,6 @@ class SuccessMessage
     {
         $success = new SuccessMessage();
         $success->data = $result;
+        return $success;
     }
 }

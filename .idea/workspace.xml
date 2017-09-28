@@ -100,8 +100,8 @@
       <file leaf-file-name="SuccessMessage.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/lib/exception/SuccessMessage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -508,12 +508,12 @@
       <workItem from="1505802109264" duration="7203000" />
       <workItem from="1505889578024" duration="11364000" />
       <workItem from="1506127984615" duration="2000" />
-      <workItem from="1506590541452" duration="1919000" />
+      <workItem from="1506590541452" duration="1984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64029000" />
+    <option name="totallyTimeSpent" value="64094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -940,8 +940,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/lib/exception/SuccessMessage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding />
         </state>
       </provider>
