@@ -12,7 +12,7 @@ namespace app\lib\exception;
 class SuccessMessage
 {
     public $code = 200;
-    public $data = [];
+    public $data = null;
 
     public static function setData($result)
     {

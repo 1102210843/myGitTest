@@ -17,7 +17,7 @@ class Category
     public function getAllCategories()
     {
         $categories = CategoryModel::all([], 'img');
-        if ($categories->isEmpty()){
+        if (empty($categories)){
             throw new CategoryException();
         }
         return SuccessMessage::setData($categories);

@@ -22,7 +22,7 @@ class Product
           (new Count())->goCheck();
 
           $products = ProductModel::getMostRecent($count);
-          if ($products->isEmpty()){
+          if (empty($products)){
               throw new ProductException();
           }
           $products = $products->hidden(['summary']);
@@ -33,7 +33,7 @@ class Product
           (new IDMustBePostiveInt())->goCheck();
 
           $products = ProductModel::getProductsByCategoryID($id);
-          if ($products->isEmpty()){
+          if (empty($products)){
               throw new ProductException();
           }
           $products = $products->hidden(['summary']);
