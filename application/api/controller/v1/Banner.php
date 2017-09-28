@@ -25,9 +25,7 @@ class Banner
             throw new BannerMissException();
         }
 
-        return new SuccessMessage([
-            'data' => $banner
-        ]);
+        return SuccessMessage::setData($banner);
 
     }
 }

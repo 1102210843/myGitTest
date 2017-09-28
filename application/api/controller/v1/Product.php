@@ -13,6 +13,7 @@ use app\api\validate\Count;
 use app\api\model\Product as ProductModel;
 use app\api\validate\IDMustBePostiveInt;
 use app\lib\exception\ProductException;
+use app\lib\exception\SuccessMessage;
 
 class Product
 {
@@ -25,7 +26,7 @@ class Product
               throw new ProductException();
           }
           $products = $products->hidden(['summary']);
-          return $products;
+          return SuccessMessage::setData($products);
       }
 
       public function getAllInCategory($id){
@@ -36,7 +37,7 @@ class Product
               throw new ProductException();
           }
           $products = $products->hidden(['summary']);
-          return $products;
+          return SuccessMessage::setData($products);
       }
 
 }

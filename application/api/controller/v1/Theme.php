@@ -25,9 +25,8 @@ class Theme
         if ($result->isEmpty()) {
             throw new ThemeException();
         }
-        $success = new SuccessMessage();
-        $success->data = $result;
-        return $success;
+
+        return SuccessMessage::setData($result);
     }
 
     /*
@@ -41,8 +40,6 @@ class Theme
         if ($result->isEmpty()){
             throw new ThemeException();
         }
-        return new SuccessMessage([
-            'data' => $result
-        ]);// $result;
+        return SuccessMessage::setData($result);
     }
 }

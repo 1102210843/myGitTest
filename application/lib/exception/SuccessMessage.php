@@ -13,4 +13,10 @@ class SuccessMessage
 {
     public $code = 200;
     public $data = [];
+
+    public static function setData($result)
+    {
+        $success = new self();
+        $success->data = $result;
+    }
 }

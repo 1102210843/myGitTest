@@ -10,6 +10,7 @@ namespace app\api\controller\v1;
 
 use app\api\model\Category as CategoryModel;
 use app\lib\exception\CategoryException;
+use app\lib\exception\SuccessMessage;
 
 class Category
 {
@@ -19,6 +20,6 @@ class Category
         if ($categories->isEmpty()){
             throw new CategoryException();
         }
-        return $categories;
+        return SuccessMessage::setData($categories);
     }
 }
