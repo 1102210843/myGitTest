@@ -21,12 +21,8 @@ class Banner
         (new  IDMustBePostiveInt())->goCheck();
 
         $banner = BannerModel::getBannerById($id);
-
-        echo dump($banner);
-        echo '|||';
-        echo $id;
-
-        if ($banner->isEmpty()){
+        
+        if (empty($banner)){
             throw new BannerMissException();
         }
 
