@@ -5,6 +5,7 @@ namespace app\api\controller\v1;
 use app\api\validate\IDCollection;
 use app\api\model\Theme as ThemeModel;
 use app\api\validate\IDMustBePostiveInt;
+use app\lib\exception\SuccessMessage;
 use app\lib\exception\ThemeException;
 
 class Theme
@@ -24,7 +25,9 @@ class Theme
         if ($result->isEmpty()) {
             throw new ThemeException();
         }
-        return $result;
+        return new SuccessMessage([
+        'data' => $result
+        ]);//$result;
     }
 
     /*
@@ -38,6 +41,8 @@ class Theme
         if ($result->isEmpty()){
             throw new ThemeException();
         }
-        return $result;
+        return new SuccessMessage([
+            'data' => $result
+        ]);// $result;
     }
 }
