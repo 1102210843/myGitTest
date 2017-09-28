@@ -16,7 +16,7 @@ class SuccessMessage
 
     public static function setData($result)
     {
-        $success = new self();
+        $success = new SuccessMessage();
         $success->data = $result;
     }
 }
