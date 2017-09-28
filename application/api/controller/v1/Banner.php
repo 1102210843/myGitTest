@@ -11,6 +11,7 @@ namespace app\api\controller\v1;
 use app\api\validate\IDMustBePostiveInt;
 use app\api\model\Banner as BannerModel;
 use app\lib\exception\BannerMissException;
+use app\lib\exception\SuccessMessage;
 
 class Banner
 {
@@ -23,7 +24,10 @@ class Banner
         if ($banner->isEmpty()){
             throw new BannerMissException();
         }
-        return $banner;
+
+        return new SuccessMessage([
+            'data' => $banner
+        ]);
 
     }
 }
